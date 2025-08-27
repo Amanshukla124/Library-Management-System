@@ -1,0 +1,76 @@
+/* 🚀 Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 🌟 Centering the Login Box */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* 📝 Input Fields */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    color: white;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/* 🔘 Login Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff9f43;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff6b6b;
+}
+
+/* ⚠️ Error Message */
+.error-message {
+    color: #ff4757;
+    margin-top: 10px;
+    font-size: 14px;
+}
